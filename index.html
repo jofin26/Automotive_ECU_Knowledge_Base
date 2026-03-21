@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ECU Knowledge Base</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="topnav">
+  <a href="index.html" class="topnav-brand">ECU Knowledge Base</a>
+</nav>
+
+<main class="page">
+
+  <div class="home-hero">
+    <h1>ECU Knowledge Base</h1>
+    <p>A personal reference for understanding automotive Electronic Control Units — hardware, software, communication, and safety — from a safety manager's perspective.</p>
+  </div>
+
+  <div class="stats-bar">
+    <div class="stat">
+      <div class="stat-number">1</div>
+      <div class="stat-label">Topics</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">4</div>
+      <div class="stat-label">Domains</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">4</div>
+      <div class="stat-label">Diagrams</div>
+    </div>
+  </div>
+
+  <div class="domain-grid">
+
+    <!-- HARDWARE -->
+    <div class="domain-card">
+      <div class="domain-card-header">
+        <div class="domain-icon hw">&#9889;</div>
+        <h2>Hardware</h2>
+      </div>
+      <p>Physical components on the ECU — microcontrollers, converters, sensors, actuators, power supply, and circuit board layout.</p>
+      <ul class="topic-list">
+        <li><a href="topics/adc.html">ADC — Analog to Digital Converter</a></li>
+        <li><span class="coming-soon">DAC — Digital to Analog Converter</span></li>
+        <li><span class="coming-soon">Microcontroller (MCU)</span></li>
+        <li><span class="coming-soon">Voltage Regulators</span></li>
+        <li><span class="coming-soon">Sensors &amp; Actuators</span></li>
+      </ul>
+    </div>
+
+    <!-- SOFTWARE / AUTOSAR -->
+    <div class="domain-card">
+      <div class="domain-card-header">
+        <div class="domain-icon sw">&#9638;</div>
+        <h2>Software / AUTOSAR</h2>
+      </div>
+      <p>AUTOSAR architecture layers, software components, interfaces, signal routing, and the runtime environment.</p>
+      <ul class="topic-list">
+        <li><span class="coming-soon">AUTOSAR Overview</span></li>
+        <li><span class="coming-soon">MCAL — Microcontroller Abstraction</span></li>
+        <li><span class="coming-soon">IoHwAb — I/O Hardware Abstraction</span></li>
+        <li><span class="coming-soon">RTE — Runtime Environment</span></li>
+        <li><span class="coming-soon">Software Components (SWC)</span></li>
+        <li><span class="coming-soon">Sender-Receiver Interface</span></li>
+        <li><span class="coming-soon">Runnables &amp; Tasks</span></li>
+      </ul>
+    </div>
+
+    <!-- COMMUNICATION -->
+    <div class="domain-card">
+      <div class="domain-card-header">
+        <div class="domain-icon comm">&#8644;</div>
+        <h2>Communication</h2>
+      </div>
+      <p>How ECUs talk to each other — bus systems, protocols, message routing, and network architecture.</p>
+      <ul class="topic-list">
+        <li><span class="coming-soon">CAN Bus</span></li>
+        <li><span class="coming-soon">LIN Bus</span></li>
+        <li><span class="coming-soon">SPI &amp; I2C</span></li>
+        <li><span class="coming-soon">Signals &amp; Signal Routing</span></li>
+        <li><span class="coming-soon">PDU, SDU &amp; Message Packing</span></li>
+      </ul>
+    </div>
+
+    <!-- SAFETY -->
+    <div class="domain-card">
+      <div class="domain-card-header">
+        <div class="domain-icon safety">&#9888;</div>
+        <h2>Safety / ISO 26262</h2>
+      </div>
+      <p>Functional safety concepts, ASIL levels, failure analysis, safety mechanisms, and your role as safety manager.</p>
+      <ul class="topic-list">
+        <li><span class="coming-soon">ISO 26262 Overview</span></li>
+        <li><span class="coming-soon">ASIL Levels (A / B / C / D)</span></li>
+        <li><span class="coming-soon">FMEA — Failure Mode Analysis</span></li>
+        <li><span class="coming-soon">FTA — Fault Tree Analysis</span></li>
+        <li><span class="coming-soon">Safety Mechanisms</span></li>
+        <li><span class="coming-soon">Hardware Metrics (SPFM / LFM)</span></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="site-footer">
+    <p>Built with Claude &middot; Hosted on GitHub Pages &middot; A personal learning tool for automotive safety managers</p>
+  </div>
+
+</main>
+</body>
+</html>
